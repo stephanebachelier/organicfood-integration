@@ -1,6 +1,9 @@
 @import "reset.css";
 @import "960_12_col.css";
 
+/* styles globaux */
+@import "partials/common.css";
+
 /* decoupage des styles suivants differents bloc de la page */
 @import "partials/header.css";
 @import "partials/footer.css";
