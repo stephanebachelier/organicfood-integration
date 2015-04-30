@@ -17,3 +17,18 @@
 	margin-right: 20px;
 }
 
+/* 
+Modification du style du lien 
+ - suppression du souligné
+ - 
+*/
+.blog__article-link {
+	text-decoration: none;
+}
+
+.blog__article-link::after {
+  content: ">";
+  font-size: 120%;
+  padding-left: 0.5em;
+}
+
