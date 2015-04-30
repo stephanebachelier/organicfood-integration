@@ -2,6 +2,11 @@
 
 }
 
+.blog__page-title {
+	width: 940px;
+	margin: 0 auto;
+}
+
 .blog__article-summary {
     margin-bottom: 40px;
 }
