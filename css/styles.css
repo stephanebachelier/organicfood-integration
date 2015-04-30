@@ -2,7 +2,9 @@
 @import "960_12_col.css";
 
 /* styles globaux */
+@import "partials/fonts.css";
 @import "partials/common.css";
+
 
 /* decoupage des styles suivants differents bloc de la page */
 @import "partials/header.css";
@@ -11,7 +13,7 @@
 @import "partials/sidebar.css";
 
 
-/* debug */ 
+/* debug */
 .blog__main, .blog__gutter, .blog__sidebar {
 	height: 60px;
 	border: thin solid black;
