@@ -26,8 +26,27 @@
 }
 
 .article__most-viewed-list {}
-	
-.article__most-viewed-item {}
+
+.article__most-viewed-item {
+	margin-bottom: 20px;
+}
 
 .article__most-viewed-link {
+	text-decoration: none;
+  color: gray;
+  background-color: black;
+}
+
+.image__wrapper {
+	float: left;
+	width: 120px;
+	text-align: center;
+	background: rgb(238, 238, 242);
+	margin-right: 20px;
+}
+
+.image__wrapper img {
+	padding-top: 10px;
+}
+
 }
